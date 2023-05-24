@@ -1,0 +1,22 @@
+CREATE TABLE ans (
+	rAns int,
+    cnpj varchar(14),
+    razSoc varchar (100),
+    nomFan varchar (100),
+	modal varchar (50),
+    logr varchar (100),
+    num varchar (50),
+    compl varchar (100),
+    bairro varchar (50),
+    cidade varchar (50),
+    uf varchar(2),
+    cep varchar(10),
+    ddd int,
+    telefone varchar(10),
+    fax varchar(15),
+    endEl varchar(50),
+    represent varchar (60),
+    cargoR varchar (60),
+    dataReg varchar (15),
+    primary key (rAns)
+);
