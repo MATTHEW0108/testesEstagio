@@ -40,5 +40,7 @@ create table conj_dados (
 show variables like "secure_file_priv";
 
 load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Relatorio_cadop.csv' into table ans CHARACTER SET latin1 fields terminated by ';' enclosed by '' lines terminated by '\n'ignore 1 rows ;
+select * from ans into outfile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/resultado.csv' fields terminated by ';' enclosed by '' lines terminated by '\n';
+
 
 select * from  ans
