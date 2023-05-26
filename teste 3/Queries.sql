@@ -43,4 +43,5 @@ load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Relatorio_cadop.
 select * from ans into outfile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/resultado.csv' fields terminated by ';' enclosed by '' lines terminated by '\n';
 
 
+
 select * from  ans
